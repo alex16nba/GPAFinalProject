@@ -1,3 +1,164 @@
-h1 {
-	color: red;
+.prices-background{
+	width:100%;
+   background-image: 
+       url("../images/bg-top.svg") ,
+       url("../images/bg-bottom.svg");
+	background-position:right top,left bottom; 
+   background-repeat: no-repeat, no-repeat;
+	height:500px;
+
+}
+
+/**
+*General style for price section
+*/
+.prices-background{
+	font-family:Poppins;
+	font-weight: bold;
+	color: hsl(260, 8%, 14%);
+	background-color: hsl(0, 0%, 75%);
+}
+
+h2{
+	font-size:40px;
+	color: hsl(260, 8%, 14%);
+	max-width: 25ch;
+	text-align:center;
+	font-weight:bold;
+
+}
+/**
+*style for countdown
+*/
+.offer{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	padding:50px;
+}
+.countdown{
+	display:flex;
+	justify-content:space-around;
+	padding:50px;
+	text-align:center;
+}
+
+.day,.hour,.minute,.second{
+	font-size: 18px;
+}
+.clear-both{
+	clear:both;
+}
+.float-left{
+	float:left;
+}
+/**
+*Style for price containers
+*/
+.prices{
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	padding:50px 0;
+	background-color: hsl(0, 0%, 75%);
+}
+/**
+*annually and monthly style buttons
+*/
+.prices-buttons{
+	width:300px;
+	margin: 25px 0;
+	display:flex;
+	justify-content:space-between;
+}
+.btn-start{
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor:pointer;
+	border: 1px solid hsl(257, 27%, 26%);
+	color: hsl(257, 27%, 26%);
+	background-color:white;
+}
+.monthly {
+  background-color:hsl(257, 27%, 26%);
+  color:white;
+}
+
+.btn-start:hover{
+	border-color: white;
+} 
+/**
+*Styling for boxes
+*/
+.box{
+	width:100%;
+	display:flex;
+	align-items:center;
+	flex-direction:column;
+	justify-content:center;
+	width:250px;
+	background-color:white;
+	padding:15px;
+	border-radius:10px;
+	color:hsl(257, 27%, 26%);
+	font-size:15px;
+	font-weight:normal;
+	text-align:center;
+	align-items: stretch;
+	justify-content:baseline;
+	
+}
+
+.container{
+	padding: 50px 0;
+	display:flex;
+	align-items:center;
+	flex-direction:row;
+	justify-content:center;
+}
+.middle{
+	padding:40px 15px 40px 15px;
+	background-color:hsl(257, 27%, 26%);
+	color:white;
+
+	
+}
+hr{
+	border:1px solid hsl(257, 27%, 26%);
+	width:100%;
+	margin:10px;
+}
+#middle{
+	border:1px solid white;
+}
+
+.basic{
+	padding:20px 0;
+}
+.selected{
+	color:white;
+}
+
+.price{
+	padding: 20px 0;
+}
+/**
+*Get started buttons
+*/
+
+.btn-basic{
+	padding: 15px 25px;
+	background-color:hsl(180, 66%, 49%);
+	cursor:pointer;
+	font-size:15px;
+	margin:15px 0;
+	color:white;
+	font-weight:bold;
+	font-size:18px;
+	border-radius:25px;
+	border:none;
 }
