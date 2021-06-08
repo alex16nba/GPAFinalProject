@@ -13,11 +13,39 @@
   <title>HomeSchool Login</title>
 
 </head>
+
 <body>  
 
-  
+	<div class="containerLogIn">
+			
+		<div>
+			<p class="welcomeBack backgd-color colorWhite"> <br><span class="font-weight "> Welcome Back! </span></br> What are you learning today?</p>
+		</div>
+		<div class="textBox-list">
+			<div>
+				<input id= "userName" type="text" class="fillingBox" value="Username">
+				<div id = "usernameError" class="error"> <i class="fa fa-exclamation colorRed" aria-hidden="true"> This field is mandatory</i> </div>
+			</div> 
+			<div>
+				<input  id= "passWord" type="text" class="fillingBox" value="Password">
+				<div id = "passwordError" class="error"> <i class="fa fa-exclamation colorRed" aria-hidden="true"> This field is mandatory</i> </div>
+			</div>
+			<div class="inLineElements">	
+				<div> <input type="checkbox" class="checkBox">Remember me</div>
+				<div class="forgotpass">Forgot<a href="./index.html"  class="colorRed font-weight clickableElem"> password? </a></div>
+			</div>
+			<button onclick= "validation()" class="logInButton clickableElem colorWhite backgd-color font-weight">LOG IN</button>
+		</div>
+		<div class="noAccount">
+			<p class="colorWhite">Don't have an account?</p>
+			<a href="./signup.html" class="colorRed clickableElem" >Create your account here!</a>
+		</div>
+		
+	</div>
   
 
   <script src="./js/javascript.js"> </script>   <!-- Incarcam fiesierul de JS --> 
+  
 </body>
+
 </html>
