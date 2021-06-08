@@ -137,3 +137,18 @@
 	margin:0 20px 0 0;
 	border-radius:50%;
 }
+/*Part FAQ*/
+.container-faq{
+	align-items:center;
+	display:flex;
+}
+.card-faq{
+	background-color:hsl(257, 27%, 26%);
+	height:500px;
+	width:1000px;
+	margin:100px 0;
+	padding:20px;
+	border-radius:5px;
+	display:flex;
+	justify-content:space-evenly;
+}
