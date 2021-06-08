@@ -13,11 +13,58 @@
   <title>HomeSchool</title>
 
 </head>
-<body>  
-
-  
-  
+<body class="bodyStyle"> 
+			
+	<div class="containerSignUp">
+		
+		<div class="textDescription colorWhite">
+			<p class="biggerTextDescription font-weight"> Learn new Skills from the comfort of your home</p>
+			<p class="smallerTextDescription"> Learning never stops, but why invest more time than needed.
+			Learn all the skills you need from the comfort of your own home without any worries.</p>
+		</div>
+		<div>
+			<div class= "try-it-free colorWhite backgd-color"><span class= "font-weight">Try it free for 7 days</span> then choose any of plans thereafter</div>
+			<div class= "textBox-list">
+				<div>
+					<input id= "firstName" type= "text" class= "fillingBox" placeholder= "First Name">
+					<div id= "firstNameError" class="error">
+						<i class="fa fa-exclamation colorRed" aria-hidden="true"> This field is mandatory</i>
+					</div>
+				</div> 
+				<div>
+					<input id= "lastName" type= "text" class= "fillingBox" placeholder= "Last Name">
+					<div id= "lastNameError" class="error"> 
+						<i class="fa fa-exclamation colorRed" aria-hidden="true"> This field is mandatory</i>
+					</div>
+				</div> 
+				<div>
+					<input id= "userName" type= "text" class= "fillingBox" placeholder= "Username">
+					<div id = "usernameError" class= "error">
+						<i class= "fa fa-exclamation colorRed" aria-hidden= "true"> This field is mandatory</i>
+					</div>
+				</div> 
+				<div>
+					<input id= "passWord" type= "text" class= "fillingBox" placeholder= "Password">
+					<div id = "passwordError" class= "error ">
+						<i class= "fa fa-exclamation colorRed" aria-hidden= "true"> This field is mandatory</i>
+					</div>
+				</div> 
+				<button onclick= "validation()" class= "signUpButton clickableElem colorWhite backgd-color font-weight">SIGN UP</button>
+				<p class= "bottomSignUpText">By clicking the button you are agreeing to our <a href="./index.html" class="termsAndService clickableElem colorRed">Terms and services</a></p>
+			</div>
+			<div>
+				<div class= "haveAnAccount colorWhite">Already have an account?</div>
+				<div class= "signIn">
+					<a class= "colorRed clickableElem" href="./login.html">Sign in here!</a>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
 
   <script src="./js/javascript.js"> </script>   <!-- Incarcam fiesierul de JS --> 
+
 </body>
+
 </html>
