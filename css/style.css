@@ -1,0 +1,51 @@
+.header-container{
+	position: relative;
+	background:white
+	padding:10px,50px;
+	font-size:20px;
+	justify-content: space-between;
+	
+}
+.logo-header{
+	font-size:30px;
+	color:"Home"hsl(257, 27%, 26%), "School"hsl(180, 66%, 49%);
+	font-weight:bold;
+	font-family:Poppins;
+	cursor:pointer;
+	//cand dai click te duce la inceputul paginii
+}
+.linkuri-header{
+	font-size:15px;
+	color:hsl(0,0%,75%);
+	font-weight:bold;
+	cursor:pointer;
+	display:flex; 
+	flex-direction: row;
+}
+.connecting{
+	height:50px;
+	padding:15px;
+	text-color:white;
+	background-color:hsl(180,66%,49%);
+	cursor:pointer;
+}
+.hero{
+	background-image: url("../images/bg-pattern-top-desktop.svg");
+}
+h1{
+	font-family:Poppins;
+	font-size:75%;
+	top:75px;
+	color:hsl(0,0%,75%)
+}
+p{	
+	weight:15px;
+	font-size:15px;
+	color:hsl(0,0%,75%);
+}
+.image{
+	left:50px
+}
+.button{
+	
+}
